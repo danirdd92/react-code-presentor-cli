@@ -1,6 +1,6 @@
 {
 	"name": "@dani-rcp/rcp-client",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -33,7 +33,8 @@
 		]
 	},
 	"devDependencies": {
-		"@types/react-resizable": "^1.7.4",
+		"@fortawesome/fontawesome-free": "^5.15.4",
+		"@monaco-editor/react": "^4.3.1",
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^11.2.7",
 		"@testing-library/user-event": "^12.8.3",
@@ -42,8 +43,7 @@
 		"@types/react": "^17.0.30",
 		"@types/react-dom": "^17.0.10",
 		"@types/react-redux": "^7.1.20",
-		"@fortawesome/fontawesome-free": "^5.15.4",
-		"@monaco-editor/react": "^4.3.1",
+		"@types/react-resizable": "^1.7.4",
 		"@uiw/react-md-editor": "^3.6.5",
 		"axios": "^0.23.0",
 		"bulmaswatch": "^0.8.1",

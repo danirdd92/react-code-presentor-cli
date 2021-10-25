@@ -18,12 +18,12 @@
 	"author": "Daniel R.",
 	"license": "ISC",
 	"dependencies": {
-		"@dani-rcp/rcp-client": "^0.1.0"
+		"@dani-rcp/rcp-client": "^1.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^16.11.4",
-		"esbuild-wasm": "^0.13.9",
 		"@dani-rcp/rcp-api": "^1.0.0",
-		"commander": "^8.3.0"
+		"@types/node": "^16.11.4",
+		"commander": "^8.3.0",
+		"esbuild-wasm": "^0.13.9"
 	}
 }
