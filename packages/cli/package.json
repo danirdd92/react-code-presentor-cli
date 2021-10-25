@@ -1,0 +1,29 @@
+{
+	"name": "rcp-cli",
+	"version": "1.0.0",
+	"bin": "dist/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"description": "react-code-presentor command line interface",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"start": "tsc --watch --preserveWatchOutput",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+	},
+	"keywords": [],
+	"author": "Daniel R.",
+	"license": "ISC",
+	"dependencies": {
+		"@dani-rcp/rcp-client": "^0.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.4",
+		"esbuild-wasm": "^0.13.9",
+		"@dani-rcp/rcp-api": "^1.0.0",
+		"commander": "^8.3.0"
+	}
+}
