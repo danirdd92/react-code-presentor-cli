@@ -7,7 +7,7 @@ interface Options {
 	filename: string;
 	dir: string;
 }
-const useProxy = process.env.NODE_ENV !== 'production';
+const isProd = process.env.NODE_ENV !== 'production';
 
 export const serveCommand = new Command()
 	.command('serve [filename]')
