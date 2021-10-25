@@ -16,7 +16,7 @@ export const serveCommand = new Command()
 	.action(async (filename = 'notebook.json', options: Options) => {
 		try {
 			const dir = path.join(process.cwd(), path.dirname(filename));
-			await serve(parseInt(options.port), path.basename(filename), dir, useProxy);
+			await serve(parseInt(options.port), path.basename(filename), dir, isProd);
 			console.log(`Opened ${filename}. Navigate to http://localhost:${options.port}`);
 		} catch (err: any) {
 			if (err.code === 'EADDRINUSE')
