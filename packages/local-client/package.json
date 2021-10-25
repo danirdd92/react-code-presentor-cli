@@ -1,6 +1,6 @@
 {
 	"name": "@dani-rcp/rcp-client",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -60,5 +60,6 @@
 		"redux-thunk": "^2.3.0",
 		"typescript": "^4.4.4",
 		"web-vitals": "^1.1.2"
-	}
+	},
+	"gitHead": "f90fcc55429dcd221ed99136d7df488543fec88b"
 }

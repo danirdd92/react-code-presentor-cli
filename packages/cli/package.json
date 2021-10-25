@@ -1,6 +1,6 @@
 {
 	"name": "rcp-cli",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"bin": "dist/index.js",
 	"publishConfig": {
 		"access": "public"
@@ -25,5 +25,6 @@
 		"@types/node": "^16.11.4",
 		"commander": "^8.3.0",
 		"esbuild-wasm": "^0.13.9"
-	}
+	},
+	"gitHead": "f90fcc55429dcd221ed99136d7df488543fec88b"
 }

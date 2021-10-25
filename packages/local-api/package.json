@@ -1,6 +1,6 @@
 {
 	"name": "@dani-rcp/rcp-api",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "react-code-presentor api",
 	"publishConfig": {
 		"access": "public"
@@ -27,5 +27,6 @@
 		"cors": "^2.8.5",
 		"express": "^4.17.1",
 		"http-proxy-middleware": "^2.0.1"
-	}
+	},
+	"gitHead": "f90fcc55429dcd221ed99136d7df488543fec88b"
 }
